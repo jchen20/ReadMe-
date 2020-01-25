@@ -26,7 +26,7 @@
         android:fontFamily="@font/font_awesome_solid"
         android:text="\uf030"
         android:textSize="150sp"
-        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="390dp" />
 
     <Button
@@ -34,7 +34,7 @@
         android:layout_width="191dp"
         android:layout_height="232dp"
         android:fontFamily="@font/font_awesome_solid"
-        android:text="\uf030"
+        android:text="\uf13d"
         android:textSize="150sp"
         tools:layout_editor_absoluteX="209dp"
         tools:layout_editor_absoluteY="377dp" />
