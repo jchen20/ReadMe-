@@ -3,35 +3,35 @@
 3    package="com.example.readme.test" >
 4
 5    <uses-sdk
-5-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:5:5-74
+5-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:5:5-74
 6        android:minSdkVersion="15"
-6-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:5:15-41
+6-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:5:42-71
+7-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:11:5-15:68
+9-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:11:5-15:68
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:11:22-76
+10-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:14:22-52
+11-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:13:22-53
+12-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:13:22-53
 13        android:label="Tests for com.example.readme"
-13-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:15:22-66
+13-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:15:22-66
 14        android:targetPackage="com.example.readme" />
-14-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:12:22-64
+14-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:12:22-64
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.1.0] C:\Users\Jeremy\.gradle\caches\transforms-2\files-2.1\61e5e7e4c8c93d43f3f06edf87848d5f\core-1.1.0\AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.1.0] C:\Users\Jeremy\.gradle\caches\transforms-2\files-2.1\61e5e7e4c8c93d43f3f06edf87848d5f\core-1.1.0\AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
-18-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:7:5-9:19
-18-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:7:18-43
+18-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:7:5-9:19
+18-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:8:9-60
-19-->C:\Users\Jeremy\Documents\GitHub\ReadMe-\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4502222652575334807.xml:8:23-57
+19-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:8:9-60
+19-->C:\Users\Jeremy\StudioProjects\ReadMe\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6029233895337868171.xml:8:23-57
 20
 21        <activity
 21-->[androidx.test:core:1.1.0] C:\Users\Jeremy\.gradle\caches\transforms-2\files-2.1\61e5e7e4c8c93d43f3f06edf87848d5f\core-1.1.0\AndroidManifest.xml:27:9-33:20
