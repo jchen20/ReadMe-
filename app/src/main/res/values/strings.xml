@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ReadMe!</string>
+    <string name="app_name">ReadMe</string>
     <string name="title_activity_text_to_speech">TextToSpeech</string>
     <string name="title_activity_settings">Settings</string>
 
