@@ -15,17 +15,18 @@
  */
 package com.google.android.gms.samples.vision.ocrreader;
 
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
-
+import android.graphics.Typeface;
 import com.google.android.gms.samples.vision.ocrreader.ui.camera.GraphicOverlay;
 import com.google.android.gms.vision.text.Text;
 import com.google.android.gms.vision.text.TextBlock;
 
 import java.util.List;
-
 /**
  * Graphic instance for rendering TextBlock position, size, and ID within an associated graphic
  * overlay view.
@@ -39,23 +40,25 @@ public class OcrGraphic extends GraphicOverlay.Graphic {
     private static Paint rectPaint;
     private static Paint textPaint;
     private final TextBlock textBlock;
-
     OcrGraphic(GraphicOverlay overlay, TextBlock text) {
         super(overlay);
 
         textBlock = text;
 
+        Typeface typeface = Typeface.SANS_SERIF;
+
         if (rectPaint == null) {
             rectPaint = new Paint();
             rectPaint.setColor(BOX_COLOR);
-            rectPaint.setStyle(Paint.Style.STROKE);
+            rectPaint.setStyle(Paint.Style.FILL);
             rectPaint.setStrokeWidth(4.0f);
         }
 
         if (textPaint == null) {
             textPaint = new Paint();
             textPaint.setColor(TEXT_COLOR);
-            textPaint.setTextSize(54.0f);
+            textPaint.setTextSize(48.0f);
+            textPaint.setTypeface(typeface);
         }
         // Redraw the overlay, as this graphic has been added.
         postInvalidate();

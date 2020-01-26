@@ -23,7 +23,7 @@
             android:value="ocr" />
 
         <activity android:name="com.google.android.gms.samples.vision.ocrreader.OcrCaptureActivity"
-            android:label="ReadMe! Text-to-speech">
+            android:label="ReadMe!">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
