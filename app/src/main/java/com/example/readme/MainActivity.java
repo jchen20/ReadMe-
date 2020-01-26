@@ -69,13 +69,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v){
-                String videoLink = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-                Uri webAddress = Uri.parse(videoLink);
-
-                Intent stonks = new Intent(Intent.ACTION_VIEW, webAddress);
-                if(stonks.resolveActivity(getPackageManager()) != null){
-                    startActivity(stonks);
-                }
+                Intent startSet = new Intent(getApplicationContext(), SettingsActivity.class);
+                startActivity(startSet);
             }
         });
 

@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="26"
         android:targetSdkVersion="29" />
 
     <uses-feature android:name="android.hardware.camera" />
@@ -32,6 +32,7 @@
         <activity android:name="com.example.readme.ImageActivity" />
         <activity android:name="com.example.readme.OcrCaptureActivity" />
         <activity android:name="com.example.readme.AboutActivity" />
+        <activity android:name="com.example.readme.SettingsActivity" />
         <activity android:name="com.example.readme.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

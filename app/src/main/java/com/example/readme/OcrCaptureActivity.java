@@ -199,7 +199,7 @@ public final class OcrCaptureActivity extends AppCompatActivity {
         // graphics for each text block on screen.  The factory is used by the multi-processor to
         // create a separate tracker instance for each text block.
         TextRecognizer textRecognizer = new TextRecognizer.Builder(context).build();
-        textRecognizer.setProcessor(new OcrDetectorProcessor(graphicOverlay));
+        textRecognizer.setProcessor(new OcrDetectorProcessor(graphicOverlay, this));
 
         if (!textRecognizer.isOperational()) {
             // Note: The first time that an app using a Vision API is installed on a

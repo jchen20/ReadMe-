@@ -17,6 +17,7 @@ package com.example.readme;
 
 import android.util.Log;
 import android.util.SparseArray;
+import android.content.Context;
 
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.text.TextBlock;
@@ -28,8 +29,10 @@ import com.google.android.gms.vision.text.TextBlock;
 public class OcrDetectorProcessor implements Detector.Processor<TextBlock> {
 
     private GraphicOverlay<OcrGraphic> graphicOverlay;
+    private Context curr;
 
-    OcrDetectorProcessor(GraphicOverlay<OcrGraphic> ocrGraphicOverlay) {
+    OcrDetectorProcessor(GraphicOverlay<OcrGraphic> ocrGraphicOverlay, Context current) {
+        curr = current;
         graphicOverlay = ocrGraphicOverlay;
     }
 
@@ -48,7 +51,7 @@ public class OcrDetectorProcessor implements Detector.Processor<TextBlock> {
             TextBlock item = items.valueAt(i);
             if (item != null && item.getValue() != null) {
                 Log.d("OcrDetectorProcessor", "Text detected! " + item.getValue());
-                OcrGraphic graphic = new OcrGraphic(graphicOverlay, item);
+                OcrGraphic graphic = new OcrGraphic(graphicOverlay, item, curr);
                 graphicOverlay.add(graphic);
             }
         }

@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/back_about"
+        android:id="@+id/back_settings"
         android:layout_width="0dp"
         android:layout_height="100sp"
         android:fontFamily="@font/font_awesome_solid"

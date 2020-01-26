@@ -3,7 +3,7 @@
     package="com.example.readme.test" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="26"
         android:targetSdkVersion="29" />
 
     <instrumentation

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\4d92c24a8ffc059b984907fa719c9cb1\firebase-core-16.0.3\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\3f2791d3ecf41ed9e54a91eddcfa2ad3\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.preference:preference:1.1.0-alpha05] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\690efcad21304df96105888f91325062\preference-1.1.0-alpha05\AndroidManifest.xml:17:1-22:12
@@ -67,20 +67,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Joe\.gra
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\5e0444443ffb82f923834973bbf621d3\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\32f03051fa98038b1568f15c5eea5b0b\lifecycle-runtime-2.2.0-alpha01\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\5a7e99fa82c740da05f88b34ada1bfee\play-services-measurement-base-16.0.3\AndroidManifest.xml:2:1-9:12
-INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:2:11-69
@@ -93,7 +93,7 @@ ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xm
 	android:name
 		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:7:22-62
 application
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:9:5-41:19
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:9:5-42:19
 MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\4d92c24a8ffc059b984907fa719c9cb1\firebase-core-16.0.3\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\4d92c24a8ffc059b984907fa719c9cb1\firebase-core-16.0.3\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\3f2791d3ecf41ed9e54a91eddcfa2ad3\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -180,44 +180,48 @@ activity#com.example.readme.AboutActivity
 ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:20:9-51
 	android:name
 		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:20:19-48
+activity#com.example.readme.SettingsActivity
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:21:9-53
+	android:name
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:21:19-51
 activity#com.example.readme.MainActivity
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:21:19-47
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:22:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:26:27-74
 meta-data#com.google.firebase.ml.vision.DEPENDENCIES
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:29:9-31:35
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:30:9-32:35
 	android:value
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:31:13-32
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:32:13-32
 	android:name
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:30:13-70
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:31:13-70
 meta-data#com.google.android.gms.version
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:33:9-35:69
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:34:9-36:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\9104068af7ccd8dc31d7b33d48f839ae\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Joe\.gradle\caches\transforms-2\files-2.1\9104068af7ccd8dc31d7b33d48f839ae\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:35:13-66
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:36:13-66
 	android:name
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:34:13-58
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:35:13-58
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:36:9-38:35
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:37:9-39:35
 	android:value
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:38:13-32
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:39:13-32
 	android:name
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:37:13-70
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:38:13-70
 activity#com.example.readme.IntroActivity
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:40:9-68
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:41:9-68
 	android:name
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:40:19-66
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:41:19-66
 uses-sdk
 INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml
