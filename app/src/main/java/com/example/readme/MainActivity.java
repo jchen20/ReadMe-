@@ -7,9 +7,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         cameraButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startCam = new Intent(getApplicationContext(), CameraInputActivity.class);
+                Intent startCam = new Intent(getApplicationContext(), OcrCaptureActivity.class);
                 startActivity(startCam);
             }
         });
