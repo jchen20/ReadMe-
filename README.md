@@ -15,11 +15,13 @@
 
 ## About 
 
-Readme is an android app (at the moment) that takes advantage of Google's Firebase text recognition
+ReadMe is an android app (at the moment) that takes advantage of Google's Firebase text recognition
  API in order to do real-time text translation to dyslexic friendly typeface using the phone camera.
  In addition, ReadMe is able to read gallery images, relaying them to the user by text-to-speech and
  dyslexic friendly typeface. The design of the application is  focused around a color-blind palette
  and large, hard to miss buttons to get users straight to the purpose of the app: to help.
+ 
+ ReadMe currently supports Latin-based languages, including English, French, and Spanish, in both OCR and text-to-speech.
 
 
 
@@ -36,4 +38,3 @@ ReadMe was created initially at Hack @ Brown 2020 by Joe Han, Jeremy Chen, Jason
 ## Future Implementations
 
 - Planning on adding more language support as dyslexic font is created, especially for East Asian languages
-- Change OCR image to support OpenDyslexic like the rest of the application
