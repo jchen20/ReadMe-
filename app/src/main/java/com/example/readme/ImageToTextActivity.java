@@ -4,6 +4,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
@@ -13,7 +14,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 public class ImageToTextActivity extends AppCompatActivity {
 
@@ -22,7 +25,15 @@ public class ImageToTextActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_to_text);
-
+        final Map<String,Locale> languages = new HashMap<String,Locale>();
+        final SharedPreferences prefs = getSharedPreferences("settings", MODE_PRIVATE);
+        final String languagetext = prefs.getString("language", "English");
+        languages.put("English", Locale.US);
+        languages.put("Español", new Locale("es", "ES"));
+        languages.put("Français", Locale.FRANCE);
+        languages.put("Deutsche", Locale.GERMANY);
+        languages.put("Italiano", Locale.ITALY);
+        languages.put("Português", new Locale("pt", "PT"));
         Button backButton = findViewById(R.id.back_image_to_text);
         backButton.setOnClickListener(new View.OnClickListener(){
 
@@ -57,7 +68,7 @@ public class ImageToTextActivity extends AppCompatActivity {
                 public void onInit(final int status) {
                     if(status == TextToSpeech.SUCCESS){
                         Log.d("OnInitListener", "Text to speech engine started successfully.");
-                        tts.setLanguage(Locale.US);
+                        tts.setLanguage(languages.get(languagetext));
                     } else {
                         Log.d("OnInitListener", "Error starting text to speech engine.");
                     }
