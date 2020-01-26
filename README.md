@@ -15,7 +15,11 @@
 
 ## About 
 
-Readme is an android app (at the moment) that takes advantage of google's firebase text recognition API in order to do real-time text translation to dyslexic friendly typeface using the phone camera. In addition, ReadMe is able to read gallery images, relaying them to the user by text-to-speech and dyslexic friendly typeface. The design of the application is  focused around a color-blind palette and large, hard to miss buttons to get users straight to the purpose of the app: to help. 
+Readme is an android app (at the moment) that takes advantage of Google's Firebase text recognition
+ API in order to do real-time text translation to dyslexic friendly typeface using the phone camera.
+ In addition, ReadMe is able to read gallery images, relaying them to the user by text-to-speech and
+ dyslexic friendly typeface. The design of the application is  focused around a color-blind palette
+ and large, hard to miss buttons to get users straight to the purpose of the app: to help.
 
 
 

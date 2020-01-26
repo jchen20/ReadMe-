@@ -23,6 +23,25 @@ public class ImageToTextActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_to_text);
 
+        Button backButton = findViewById(R.id.back_image_to_text);
+        backButton.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+
+                Bundle bundle = new Bundle();
+                bundle.putString("bool", "true");
+
+                Intent goHome = new Intent(getApplicationContext(), MainActivity.class);
+                goHome.putExtras(bundle);
+
+                startActivity(goHome);
+            }
+        });
+
+
+
+
         Bundle bundle = getIntent().getExtras();
 
         TextView detectedText = findViewById(R.id.image_to_text);

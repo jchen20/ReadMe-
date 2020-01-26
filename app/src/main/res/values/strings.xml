@@ -30,4 +30,8 @@
     <string name="ocr_success">Text read successfully</string>
     <string name="ocr_failure">No text captured</string>
     <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="text_to_speech_here">About:\n ReadMe was coded for Hack@Brown 2020 by Jason Ho, Jeremy Chen, Joe Han and Steven Cheung. \n
+    The purpose of the app is to combine existing technologies into an accessibility tool for those with dyslexia or visual impairment. ReadMe serves
+    as a general visual aid through its implementation of Google cloud services like OCR and Firebase text recognition to enhance images of text.</string>
+    <string name="home">\uf015</string>
 </resources>

@@ -176,10 +176,10 @@ activity#com.example.readme.OcrCaptureActivity
 ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:19:9-56
 	android:name
 		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:19:19-53
-activity#com.example.readme.TextToSpeechActivity
-ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:20:9-58
+activity#com.example.readme.AboutActivity
+ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:20:9-51
 	android:name
-		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:20:19-55
+		ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:20:19-48
 activity#com.example.readme.MainActivity
 ADDED from D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:name

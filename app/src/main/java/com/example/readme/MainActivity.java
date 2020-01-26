@@ -14,14 +14,26 @@ public class MainActivity extends AppCompatActivity {
     Button ttsButton;
     Button imageButton;
     Button settingsButton;
-
+    boolean initialization = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(getApplicationContext(), IntroActivity.class);
-        startActivity(intent);
+        try {
+            Bundle bundle = getIntent().getExtras();
+            if(bundle.getString("bool").equals("true")){
+                initialization = false;
+            }
+        } catch (NullPointerException e){
+        //TODO BAD JAVA REEEEEE
+        }
+
+        if(initialization) {
+            Intent intent = new Intent(getApplicationContext(), IntroActivity.class);
+            startActivity(intent);
+            initialization = false;
+        }
 
         cameraButton = findViewById(R.id.cam_button);
         cameraButton.setOnClickListener(new View.OnClickListener() {
@@ -37,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v){
-                Intent startTTS = new Intent(getApplicationContext(), TextToSpeechActivity.class);
+                Intent startTTS = new Intent(getApplicationContext(), AboutActivity.class);
                 startActivity(startTTS);
             }
         });

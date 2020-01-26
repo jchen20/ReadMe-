@@ -9,14 +9,14 @@
     <Button
         android:id="@+id/import_button"
         android:layout_width="0dp"
-        android:layout_height="300sp"
+        android:layout_height="200sp"
+        android:background="@android:color/holo_blue_dark"
         android:fontFamily="@font/opendyslexic_bold"
         android:text="Import Image"
-        android:background="@android:color/holo_blue_dark"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/back_import"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -44,5 +44,17 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" />
     </ScrollView>
+
+    <Button
+        android:id="@+id/back_import"
+        android:layout_width="0dp"
+        android:layout_height="100sp"
+        android:fontFamily="@font/font_awesome_solid"
+        android:text="@string/home"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

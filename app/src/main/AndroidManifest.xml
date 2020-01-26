@@ -17,7 +17,7 @@
         <activity android:name=".ImageToTextActivity"></activity>
         <activity android:name=".ImageActivity" />
         <activity android:name=".OcrCaptureActivity" />
-        <activity android:name=".TextToSpeechActivity" />
+        <activity android:name=".AboutActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

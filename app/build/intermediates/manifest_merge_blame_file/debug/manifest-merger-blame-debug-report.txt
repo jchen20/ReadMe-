@@ -62,9 +62,9 @@
 33        <activity android:name="com.example.readme.OcrCaptureActivity" />
 33-->D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:19:9-56
 33-->D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:19:19-53
-34        <activity android:name="com.example.readme.TextToSpeechActivity" />
-34-->D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:20:9-58
-34-->D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:20:19-55
+34        <activity android:name="com.example.readme.AboutActivity" />
+34-->D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:20:9-51
+34-->D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:20:19-48
 35        <activity android:name="com.example.readme.MainActivity" >
 35-->D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:21:9-27:20
 35-->D:\Libraries\Documents\GitHub\ReadMe-\app\src\main\AndroidManifest.xml:21:19-47

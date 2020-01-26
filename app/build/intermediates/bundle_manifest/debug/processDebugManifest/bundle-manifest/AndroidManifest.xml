@@ -31,7 +31,7 @@
         <activity android:name="com.example.readme.ImageToTextActivity" />
         <activity android:name="com.example.readme.ImageActivity" />
         <activity android:name="com.example.readme.OcrCaptureActivity" />
-        <activity android:name="com.example.readme.TextToSpeechActivity" />
+        <activity android:name="com.example.readme.AboutActivity" />
         <activity android:name="com.example.readme.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

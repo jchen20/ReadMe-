@@ -49,6 +49,20 @@ public class ImageActivity extends AppCompatActivity {
                 openGallery();
             }
         });
+
+        Button home = findViewById(R.id.back_import);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                bundle.putString("bool", "true");
+
+                Intent goHome = new Intent(getApplicationContext(), MainActivity.class);
+                goHome.putExtras(bundle);
+
+                startActivity(goHome);
+            }
+        });
     }
 
     private void openGallery(){
