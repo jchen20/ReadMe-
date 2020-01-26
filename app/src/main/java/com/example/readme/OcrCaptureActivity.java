@@ -24,6 +24,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.os.Bundle;
@@ -40,6 +41,7 @@ import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -48,7 +50,9 @@ import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 /**
  * Activity for the Ocr Detecting app.  This app detects text and displays the value with the
@@ -80,12 +84,24 @@ public final class OcrCaptureActivity extends AppCompatActivity {
     // A TextToSpeech engine for speaking a String value.
     private TextToSpeech tts;
 
+
+
     /**
      * Initializes the UI and creates the detector pipeline.
      */
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
+        final Map<String,Locale> languages = new HashMap<String,Locale>();
+        final SharedPreferences prefs = getSharedPreferences("settings", MODE_PRIVATE);
+        final String text = prefs.getString("language", "English");
+        languages.put("English", Locale.US);
+        languages.put("Español", new Locale("es", "ES"));
+        languages.put("Français", Locale.FRANCE);
+        languages.put("Deutsche", Locale.GERMANY);
+        languages.put("Italiano", Locale.ITALY);
+        languages.put("Português", new Locale("pt", "PT"));
+
         setContentView(R.layout.activity_camera_input);
 
         Button home = findViewById(R.id.back_cam);
@@ -132,7 +148,7 @@ public final class OcrCaptureActivity extends AppCompatActivity {
                     public void onInit(final int status) {
                         if (status == TextToSpeech.SUCCESS) {
                             Log.d("OnInitListener", "Text to speech engine started successfully.");
-                            tts.setLanguage(Locale.US);
+                            tts.setLanguage(languages.get(text));
                         } else {
                             Log.d("OnInitListener", "Error starting the text to speech engine.");
                         }

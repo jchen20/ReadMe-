@@ -3,6 +3,10 @@
     <string-array name="reply_entries">
         <item>English</item>
         <item>Español</item>
+        <item>Français</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Português</item>
     </string-array>
 
     <string-array name="reply_values">
