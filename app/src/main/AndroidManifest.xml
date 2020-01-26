@@ -24,6 +24,8 @@
         <meta-data
             android:name="com.google.firebase.ml.vision.DEPENDENCIES"
             android:value="ocr" />
+
+        <activity android:name="com.example.readme.IntroActivity"/>
     </application>
 
 </manifest>

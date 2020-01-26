@@ -42,6 +42,8 @@
             android:name="com.google.firebase.ml.vision.DEPENDENCIES"
             android:value="ocr" />
 
+        <activity android:name="com.example.readme.IntroActivity" />
+
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
             android:exported="false" >
