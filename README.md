@@ -35,7 +35,7 @@ ReadMe was created initially at Hack @ Brown 2020 by Joe Han, Jeremy Chen, Jason
 
 ## Usage
 
-This app is currently not live on the Play Store. Feel free to download the app files, but please note that you will need your own google-
+This app is currently not live on the Play Store. Feel free to download the app files, but please note that you will need your own google-services.json for the API to function correctly. 
 
 ## Future Implementations
 
