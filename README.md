@@ -21,11 +21,11 @@ ReadMe is an android app (at the moment) that takes advantage of Google's Fireba
  dyslexic friendly typeface. The design of the application is  focused around a color-blind palette
  and large, hard to miss buttons to get users straight to the purpose of the app: to help.
 
- ReadMe currently supports Latin-based languages, including English, French, and Spanish, in both OCR and text-to-speech.
+ ReadMe currently supports some Latin-based languages, including English, French, and Spanish, in both OCR and text-to-speech.
 
 
 
-As of right now, ReadMe is compatible with Android 10, Android Pie, and past versions as well.
+As of right now, ReadMe is compatible with Android 10, Android Pie, and some past versions as well.
 
 
 
@@ -33,7 +33,9 @@ As of right now, ReadMe is compatible with Android 10, Android Pie, and past ver
 
 ReadMe was created initially at Hack @ Brown 2020 by Joe Han, Jeremy Chen, Jason Ho, and Steven Cheung.
 
+## Usage
 
+This app is currently not live on the Play Store. Feel free to download the app files, but please note that you will need your own google-
 
 ## Future Implementations
 
